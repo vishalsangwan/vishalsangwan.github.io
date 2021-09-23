@@ -29,7 +29,7 @@ class About extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return Container(
       height: size.height,
-      width:size.width - 100,
+      width: size.width - 100,
       child: Row(
         children: [
           //About me
@@ -77,7 +77,7 @@ class About extends StatelessWidget {
                   children: [
                     CustomText(
                       text:
-                          "Hello! I'm Vishal,I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products.\n\n",
+                          "Hello! I'm Vishal,I enjoy creating things that live on the internet, whether that be websites,iot application, or anything in between. My goal is to always build products that provides value.\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
@@ -103,7 +103,7 @@ class About extends StatelessWidget {
                 Container(
                   height: size.height * 0.15,
                   width: size.width,
-                  child: Wrap(  
+                  child: Wrap(
                     children: [
                       Container(
                         width: size.width * 0.20,
@@ -113,7 +113,7 @@ class About extends StatelessWidget {
                             technology(context, "Dart"),
                             technology(context, "Flutter"),
                             technology(context, "Firebase"),
-                            technology(context, "UI/UX (Adobe Xd)"),
+                            technology(context, "Python"),
                           ],
                         ),
                       ),
@@ -122,10 +122,10 @@ class About extends StatelessWidget {
                         height: size.height * 0.15,
                         child: Column(
                           children: [
-                            technology(context, "C/C++, Java."),
-                            technology(context, "HTML & (S)CSS"),
-                            technology(context, "MYSQL"),
-                            technology(context, "Git - Github"),
+                                technology(context, "Azure Cloud"),
+                                technology(context, "Git & Github"),
+                                technology(context, "MYSQL"),
+                                technology(context, "Agile"),
                           ],
                         ),
                       )
