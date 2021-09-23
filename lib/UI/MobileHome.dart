@@ -48,8 +48,8 @@ class _MobileHomeState extends State<MobileHome> {
                   currentAccountPicture: CircleAvatar(
                     child: Icon(Icons.person),
                   ),
-                  accountName: Text("Tushar Nikam"),
-                  accountEmail: Text("champ96k@gmail.com")),
+                  accountName: Text("Vishal Sangwan"),
+                  accountEmail: Text("vishalsangwan@outlook.com")),
               ListTile(
                 title: Text("Share"),
                 leading: Icon(Icons.share),
@@ -95,7 +95,7 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.02,
               ),
               CustomText(
-                text: "Tushar Nikam.",
+                text: "Vishal Sangwan.",
                 textsize: 52.0,
                 color: Color(0xffCCD6F6),
                 fontWeight: FontWeight.w900,
@@ -213,7 +213,7 @@ class _MobileHomeState extends State<MobileHome> {
                         children: [
                           CustomText(
                             text:
-                                "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n",
+                                "Hello! I'm Vishal,I enjoy creating things that live on the internet, whether that be websites,iot application, or anything in between. My goal is to always build products that provides value.\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -221,7 +221,7 @@ class _MobileHomeState extends State<MobileHome> {
                           ),
                           CustomText(
                             text:
-                                "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n",
+                                "Currently, I am purshuing my Master's degree in Hoschule Bremen, I'am looking for student job in the field of software development or product management or finance controlling.\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -255,17 +255,17 @@ class _MobileHomeState extends State<MobileHome> {
                                 technology(context, "Dart"),
                                 technology(context, "Flutter"),
                                 technology(context, "Firebase"),
-                                technology(context, "UI/UX (Adobe XD)"),
+                                technology(context, "Python"),
                               ],
                             ),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                technology(context, "C/C++"),
-                                technology(context, "HTML, & (S)Css"),
+                                technology(context, "Azure Cloud"),
+                                technology(context, "HTML, & Css"),
                                 technology(context, "MYSQL"),
-                                technology(context, "Java"),
+                                technology(context, "Agile"),
                               ],
                             ),
                           ],
@@ -727,7 +727,7 @@ class _MobileHomeState extends State<MobileHome> {
                         alignment: WrapAlignment.center,
                         children: [
                           Text(
-                            "Although I'm currently looking for SDE-1 opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+                            "Currently, I am purshuing my Master's degree in Hoschule Bremen, I'am looking for student job in the field of finance controlling, software development or product management .",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.white.withOpacity(0.4),
@@ -835,7 +835,7 @@ class _MobileHomeState extends State<MobileHome> {
                 width: MediaQuery.of(context).size.width,
                 //color: Colors.white,
                 child: Text(
-                  "Designed & Built by Tushar Nikam 💙 Flutter",
+                  " 💙 Flutter",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white.withOpacity(0.4),

@@ -189,24 +189,8 @@ class _HomePageState extends State<HomePage> {
                             color: Color(0xffffA8B2D1),
                             iconSize: 16.0,
                             onPressed: () {
-                              method.launchURL("https://github.com/champ96k");
+                              method.launchURL("https://github.com/vishalsangwan");
                             }),
-                        IconButton(
-                            icon: FaIcon(FontAwesomeIcons.twitter),
-                            color: Color(0xffffA8B2D1),
-                            iconSize: 16.0,
-                            onPressed: () {
-                              method.launchURL("https://twitter.com/champ_96k");
-                            }),
-                        IconButton(
-                          icon: FaIcon(FontAwesomeIcons.linkedin),
-                          color: Color(0xffffA8B2D1),
-                          onPressed: () {
-                            method.launchURL(
-                                "https://www.linkedin.com/in/tushar-nikam-a29a97131/");
-                          },
-                          iconSize: 16.0,
-                        ),
                         IconButton(
                             icon: Icon(Icons.call),
                             color: Color(0xffffA8B2D1),
@@ -268,7 +252,7 @@ class _HomePageState extends State<HomePage> {
                                   ),
                                   CustomText(
                                     text:
-                                        "I build things for the Android and web.",
+                                        "I build, design and manage projects for the web.",
                                     textsize: 56.0,
                                     color: Color(0xffCCD6F6).withOpacity(0.6),
                                     fontWeight: FontWeight.w700,
@@ -279,7 +263,7 @@ class _HomePageState extends State<HomePage> {
                                   Wrap(
                                     children: [
                                       Text(
-                                        "I'm a freelancer based in Nashik, IN specializing in \nbuilding (and occasionally designing) exceptional websites, \napplications, and everything in between.",
+                                        "I'm specializing in \nbuilding, Managing (and occasionally designing) exceptional w, \napplications and products, and everything in between.",
                                         style: TextStyle(
                                           color: Colors.grey,
                                           fontSize: 16.0,
