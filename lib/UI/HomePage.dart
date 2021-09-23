@@ -149,8 +149,8 @@ class _HomePageState extends State<HomePage> {
                               color: Color(0xff0A192F),
                               borderRadius: BorderRadius.circular(6.0),
                             ),
-                            child: FlatButton(
-                              hoverColor: Color(0xFF3E0449),
+                            child: TextButton(
+                              
                               onPressed: () {
                                 method.launchURL(
                                     "https://drive.google.com/file/d/1yHLcrN5pCUGIeT8SrwC2L95Lv0MVbJpx/view?usp=sharing");
