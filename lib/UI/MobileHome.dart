@@ -117,7 +117,7 @@ class _MobileHomeState extends State<MobileHome> {
                 child: Wrap(
                   children: [
                     Text(
-                      "I'm a freelancer based in Nashik, IN specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.",
+                      "I Build Manage (and occasionally design) Websites,mobile applications,iot and everything in between.",
                       style: TextStyle(
                         color: Colors.grey,
                         fontSize: 15.0,
